@@ -1,0 +1,30 @@
+#components {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.iq-document-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.container {
+  background-image: url('preview.jpg'); /* Asegúrate de que la ruta de la imagen sea correcta */
+  background-size: cover; /* Para que la imagen de fondo cubra todo el contenedor */
+  padding: 2em;
+  color: black; /* Asegura la legibilidad del texto */
+}
+
+.text-3xl {
+  font-size: 1.5em; /* Ajusta el tamaño del texto según tus necesidades */
+  font-weight: bold;
+}
+
+.mt-4, .mt-8 {
+  margin-top: 1em; /* Ajusta el margen superior */
+}
+
+/* Puedes añadir más estilos específicos según sea necesario */

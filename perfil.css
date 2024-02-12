@@ -1,0 +1,68 @@
+.card-body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.user-bio p {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.info-column {
+  flex: 1;
+  margin: 0 10px; /* Añade un espacio entre las columnas */
+}
+
+.info-card {
+  margin-bottom: 15px; /* Espacio entre tarjetas */
+}
+
+.info-card i {
+  color: #007bff ;
+  margin-right: 10px ;
+}
+
+.info-card h6 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.info-card p {
+  color: #666;
+}
+
+a.text-body {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a.text-body:hover {
+  text-decoration: underline;
+}
+
+/* Asegúrate de que el diseño sea responsivo */
+@media (max-width: 768px) {
+  .info-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .info-column {
+      margin-bottom: 20px;
+  }
+}
+
+.custom-card .card-body {
+  background-image: url('/preview.jpg');
+  background-size: cover;
+  background-position: center;
+}

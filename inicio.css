@@ -1,0 +1,19 @@
+/* Colores basados en la imagen proporcionada */
+:root {
+  --color-primario: #123456; /* Reemplaza #123456 con el valor hexadecimal del color azul primario de tu imagen */
+  --color-secundario: #7890AB; /* Reemplaza #7890AB con el valor hexadecimal del color secundario de tu imagen */
+  --color-terciario: #CDEF01; /* Añade más colores si es necesario */
+  /* Asegúrate de reemplazar los valores hexadecimales anteriores con los colores reales de tu diseño */
+}
+
+body {
+  background-color: var(--color-primario);
+  color: var(--color-secundario); /* Establece el color del texto para que contraste bien con el fondo */
+}
+
+.card {
+  background: var(--color-secundario);
+  color: var(--color-primario); /* Aquí también, asegúrate de que el texto sea legible sobre el fondo */
+}
+
+/* Otros estilos personalizados como margenes, padding, etc. */
